@@ -1,0 +1,20 @@
+{
+  "name": "WGYwarehouse",
+  "version": "1.0.0",
+  "description": "study",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgy532619140/WGYwarehouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wgy532619140/WGYwarehouse/issues"
+  },
+  "homepage": "https://github.com/wgy532619140/WGYwarehouse#readme"
+}
