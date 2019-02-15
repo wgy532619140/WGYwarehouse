@@ -1,0 +1,1 @@
+"use strict";var myBScroll=new BScroll("#werr",{probeType:2,click:!0}),myswiper=new Swiper(".swiper-container",{autoplay:!0,loop:!0});
