@@ -228,6 +228,177 @@ section {
 
 section > div {
   width: 100%;
-  height: 2000px;
   background: #f5f5f5;
+}
+
+section > div .swiper-container {
+  width: 100%;
+  height: 5.33333rem;
+}
+
+section > div .swiper-container img {
+  width: 100%;
+  height: 100%;
+}
+
+section > div #nav {
+  width: 100%;
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background: #fff;
+  margin-bottom: 0.26667rem;
+}
+
+section > div #nav dl {
+  width: 25%;
+  height: 2.13333rem;
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+section > div #nav dl dt {
+  width: 55%;
+  height: 1.33333rem;
+  background: #53ab3a;
+  border-radius: 2.66667rem;
+}
+
+section > div #con {
+  width: 100%;
+  background: #fff;
+}
+
+section > div #con .con-nav {
+  width: 100%;
+  height: 1.17333rem;
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+}
+
+section > div #con .con-nav li {
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  height: 100%;
+  line-height: 1.17333rem;
+  text-align: center;
+  border-bottom: 0.02667rem solid #ccc;
+}
+
+section > div #con .con-bao {
+  width: 100%;
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+section > div #con .con-bao .ten {
+  width: 90%;
+  height: 3.2rem;
+  margin-top: 0.26667rem;
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 0 0.26667rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section > div #con .con-bao .ten > img {
+  width: 2.93333rem;
+  height: 2.93333rem;
+}
+
+section > div #con .con-bao .ten > div {
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin: 0 0.26667rem;
+}
+
+section > div #con .con-bao .ten > div > div {
+  margin: 0.08rem 0;
+}
+
+section > div #con .con-bao .ten > div > div:nth-child(1) {
+  font-size: 0.48rem;
+}
+
+section > div #con .con-bao .ten > div > div:nth-child(2) {
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+section > div #con .con-bao .ten > div > div:nth-child(2) > span {
+  padding: 0.05333rem;
+  background: #f90;
+  color: #fff;
+}
+
+section > div #con .con-bao .ten > div > div:nth-child(2) > div > span {
+  font-size: 0.42667rem;
+  color: #f90;
+  font-weight: bold;
+}
+
+section > div #con .con-bao .ten > div > div:nth-child(3) > span {
+  margin-right: 0.13333rem;
+}
+
+section > div #con .con-bao .ten > div > div:nth-child(4) {
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+section > div #con .con-bao .ten > div > div:nth-child(4) > div > span {
+  margin-right: 0.13333rem;
+}
+
+section > div #con .con-bao .ten .no {
+  visibility: hidden;
 }
